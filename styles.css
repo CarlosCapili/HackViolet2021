@@ -1,0 +1,478 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+	height: 100%;
+}
+
+body{
+	background-color: #C7EBFF;
+}
+
+#landingpage{
+	background-color: #C7EBFF;
+}
+
+#title{
+	margin-bottom: 80px;
+}
+
+#submit{
+	text-align: center;
+	width: 90%;
+	background-color: #316ADA;
+	color: white;
+	font-size: 1.5em;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 0;
+	padding-right: 0;
+	border: none;
+	opacity: 0.65;
+	border-radius: 15px;
+}
+#submit:hover{
+	cursor: pointer;
+	background-color: #13109E;
+}
+
+#login{
+	margin-top: 30px;
+}
+
+#forgot{
+	position: relative;
+	left: 30px;
+	color:red;
+	margin-top: 20px;
+	margin-bottom: 40px;
+
+}
+
+#title h1{
+	text-align: center;
+	font-size: 3.5em;
+	margin-bottom: 40px;
+}
+#ellipse1{
+	position: absolute;
+	border-radius: 50%;
+	top: 5%;
+	left: 4%;
+	width: 450px; 
+	height: 414.2px;
+	background-color: #316ADA;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#ellipse2{
+	position: relative;
+	border-radius: 50%;
+	margin-top: 20vh;
+	width: 519px;
+	height: 507px;
+	background-color: #A4D6E5;
+	opacity: 0.65;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#ellispe2:hover{
+	background-color: #13109E;
+	transition: 
+}
+
+#form{
+	position: relative;
+	margin-top: 25vh;
+}
+
+
+/*DESIGN OF PAGE --MAIN*/
+.jumbotron{
+	position: relative;
+	border-radius: 20px;
+	color:#044B6F;
+    z-index: 1;
+}
+
+.jumbotron:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(https://images.pexels.com/photos/4386464/pexels-photo-4386464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) center center no-repeat;
+    opacity: .4;
+}
+
+.jumbotron h1{
+	font-size: 4rem;
+}
+
+.jumbo-icon{
+	position: relative;
+	top: 45px;
+	left: 65px;
+	color: #FFFFFF;
+	font-size: 300px;
+	transform: rotate(10deg);
+}
+
+.container-fluid{
+	width: 90%;
+}
+
+.col-md{
+	padding:0;
+
+}
+
+/*PRODUCT TILES */
+.tiles{
+	position: relative;
+	height: 300px;
+	margin-right: 18px;
+	margin-left: 18px;
+	margin-top: 15px;
+	border-radius: 20px;
+	background-color: #4B7ECA;
+
+}
+
+.tiles h2{
+	position: relative;
+	text-align: center;
+	margin: 0;
+	top: 85.5%;
+	width: 100%;
+	padding: 10px;
+	background-color:white;
+	border-radius: 20px;
+	font-size: 1.2em;
+	font-weight: 1000;
+	opacity: 0.9
+}
+
+.tiles h2:hover{
+	background-color: #E9E9E9;
+	cursor: pointer;
+}
+
+#sale{
+	background: url(sales.jpeg) no-repeat center;
+	background-size: cover;
+}
+
+#masks{
+	background: url(mask.jpeg) no-repeat center;
+	background-size: cover;
+}
+
+#gloves{
+	background: url(glove.jpeg) no-repeat center;
+	background-size: cover;
+}
+
+/*END OF PRODUCT TILES*/
+
+.text{
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+#text{
+	position: relative;
+	width: 80%;
+	height: 150px;
+	overflow: hidden;
+}
+
+#main{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#footer{
+	color: white;
+	display: flex;
+	background-color: #4B7ECA;
+  	bottom: 0;
+  	width: 100%;
+  	padding-top: 10px;
+  	padding-bottom: 10px;      
+}
+
+.sub-header{
+	padding-top: 20px;
+
+}
+
+.sub-header ul{
+	 list-style-type: none;
+	 padding: 0;
+}
+
+.sub-header{
+	padding-left: 50px;
+}
+
+textarea{
+	resize: none;
+	overflow:auto;
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	width: 65%;
+	height: 125px;
+}
+
+footer p{
+	font-size: 1.3em;
+}
+
+footer{
+	margin-top: 50px;
+}
+
+
+/*END OF DESIGN --END OF MAIN*/
+
+/*ANIMATION*/
+
+#container p{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#container {
+  color:#044B6F;
+  font-size:36px;
+  font-weight:bold; 
+  width:100%;
+  bottom:45%;
+  display:block;
+}
+
+#flip {
+color: #044B6F;
+  height:50px;
+  text-transform: uppercase;
+  overflow:hidden;
+}
+
+#flip > div > div {
+  color:#044B6F;
+  height:45px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom:45px;
+  border-radius: 20px;
+  display:inline-block;
+}
+
+#flip div:first-child {
+  animation: show 5s linear infinite;
+}
+
+#flip div div {
+  background:#48C6EA;
+}
+#flip div:first-child div {
+  background:#11EA5F;
+}
+#flip div:last-child div {
+  background:#FF8E94;
+}
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-180px;}
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+}
+/*END OF ANIMATION*/
+
+/*HEADER */
+.nav-item{
+	margin-left: 4vw;
+	font-size: 2em;
+	text-align: center;
+}
+
+.bg-light{
+	background-color: #4B7ECA!important;
+}
+
+.btn-outline-success{
+	color:white;
+	border-color:white;
+}
+
+.mr-auto{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.navbar-dark .navbar-brand{
+	font-size: 2em;
+}
+
+.icons{
+	margin-left: 15px;
+
+}
+
+.form-inline{
+	margin-right: 20px;
+}
+/*End of Header*/
+
+
+
+/*BIRD STUFF*/
+
+#logoBird{
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+	position: absolute;
+	top: 45px;
+	left: 65px;
+	color: #FFFFFF;
+	font-size: 300px;
+	transform: rotate(10deg);
+}
+
+#navBird{
+	transform: rotate(10deg);
+	font-size: 60px;
+}
+
+#jumboBird{
+	color: #044B6F;
+	font-size: 300px;
+	transform: rotate(10deg);
+}
+
+/*END OF BIRD STUFF*/
+
+.form-input{
+	width: 90%;
+	padding: 0.5em;
+	border-radius: 15px;
+	border:none;
+}
+
+.form-div{
+	text-align: center;
+	margin-bottom: 15px;
+}
+/*START OF PRODUCT PAGE CSS*/
+.head2{
+	padding-top: 2em;
+	padding-left: 2em;
+}
+
+* {
+	box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+	max-width: 500px;
+	position: relative;
+	margin: auto;
+	padding: 2em;
+	float:left; 
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {
+		opacity: .4
+	}
+
+	to {
+		opacity: 1
+	}
+}
+
+@keyframes fade {
+	from {
+		opacity: .4
+	}
+
+	to {
+		opacity: 1
+	}
+}
+
+
